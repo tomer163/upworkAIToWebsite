@@ -1,0 +1,18 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'crayon_works_demoregular';
+    src: url('./assets/fonts/crayonworksdemoregular-9y7oz.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@layer base{
+    html{
+        font-family: "crayon_works_demoregular";
+    }
+}
