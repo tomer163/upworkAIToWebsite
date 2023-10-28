@@ -1,5 +1,5 @@
 <template>
-  <div class="relative bg-[url('./assets/images/bodybackground.jpg')] bg-[length:1100px] bg-center w-full h-[100vh]">
+  <div class="relative bg-[url('./assets/images/bodybackground.jpg')] bg-[length:70rem] bg-center w-full h-[100vh]">
     <home v-if="page === 0"></home>
     <secndpage v-if="page === 1"></secndpage>
     <button @click="page ++">yo</button>
