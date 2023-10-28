@@ -1,5 +1,5 @@
 <template>
-    <div class="absolute top-0 right-0 left-0 bottom-0 w-[calc(100vw-15rem)] max-w-[80rem] min-w-[40rem] aspect-[7/4] m-auto">
+    <div class="absolute top-0 right-0 left-0 bottom-0 w-[calc(100vw-30rem)] max-w-[80rem] min-w-[40rem] aspect-[7/4] m-auto">
         <div class="relative h-full w-full">
             <!--outer notebook-->
             <div class="overflow-hidden flex h-full rounded-r-3xl rounded-l shadow-[30px_35px_60px_-15px_rgba(0,0,0,1)]">
@@ -14,7 +14,7 @@
                     <div class="relative w-full h-full bg-[url('./assets/images/orangeleather2.jpeg')] bg-[length:137%] bg-top rounded-r-lg shadow-[inset_-30px_0px_30px_-20px_rgba(0,0,0,0.7)]">
                         <div class="w-[98%] h-full rounded-l-full border-l-[5px] border-t-[3px] border-b-[3px] border-[#dba48a]"></div>
                         <div class="absolute left-[35%] top-0 bottom-0 m-auto aspect-square h-[22%] bg-[#e8b092] border border-[#5e483c] rounded-full shadow-[inset_0px_4px_5px_0px_rgba(0,0,0,1)] flex items-center ">
-                            <div class="h-[3px] w-[3px] bg-stone-600 mx-auto mt-1 rounded-full"></div>
+                            <div class="h-[3px] w-[3px] lg:bg-stone-600 mx-auto mt-1 rounded-full"></div>
                         </div>
                     </div>
             </div>
@@ -27,7 +27,7 @@
                             <button class="bg-stone-600 h-10 w-10 rounded-full text-white">yo</button>
                             <span class="font-bold">NOTE</span>
                         </div>
-                        <h1 class="lg:text-[4rem] font-bold">Tools</h1>
+                        <h1 class="lg:text-[4rem] text-3xl font-bold">Tools</h1>
                         <div class="grid grid-cols-3 grid-rows-4 h-full gap-y-[6%] gap-x-[3%]">
                             <div class="w-[80%] h-[50%] mx-auto border-b-2 border-dotted border-b-stone-400"></div>
                             <div class="w-[70%] h-[50%] mx-auto border-b-2 border-dotted border-b-stone-400"></div>
@@ -46,7 +46,6 @@
                             <div class="grow"></div>
                             <div class="grow border-t border-t-orange-200"></div>
                             <div class="flex h-[40%]">
-
                                 <button class="h-full min-h-[2rem] aspect-[12/4] rounded-full border-2 border-stone-600 flex overflow-hidden items-center text-white text-lg">
                                     <div class="h-full bg-stone-600 flex items-center w-[60%]">
                                         <span class="m-auto">OLLIL..</span>
